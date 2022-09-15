@@ -5,6 +5,7 @@ export default function AuthorLayout({ children, frontMatter }) {
   const {
     name,
     avatar,
+    cv,
     occupation,
     company,
     company_link,
@@ -18,8 +19,8 @@ export default function AuthorLayout({ children, frontMatter }) {
     'mx-2 border-b border-transparent border-dashed hover:border-gray-700 hover:dark:border-gray-100 hover:text-primary-500'
   return (
     <div className="divide-y">
-      <div className="items-start space-y-2 xl:grid xl:grid-cols-3 xl:gap-x-8 xl:space-y-0">
-        <div className="flex flex-col items-center pt-8 space-x-2">
+      <div className="items-start space-y-2">
+        <div className="flex flex-col items-center space-x-2">
           <Image
             src={avatar}
             alt="avatar"
@@ -33,7 +34,7 @@ export default function AuthorLayout({ children, frontMatter }) {
           <div className="flex pt-4 space-x-3">
             <ul className="list-with-bar text-sm">
               <li className="inline">
-                <Link className={linkClassName} href="/cv_junha_lee.pdf">
+                <Link className={linkClassName} href={cv}>
                   CV
                 </Link>
               </li>
@@ -54,9 +55,9 @@ export default function AuthorLayout({ children, frontMatter }) {
               </li>
             </ul>
           </div>
-        </div>
-        <div className="pt-8 pb-8 px-2 prose dark:prose-dark max-w-none xl:col-span-2">
-          {children}
+          <div className="pt-8 pb-8 px-2 prose dark:prose-dark max-w-none xl:col-span-2">
+            {children}
+          </div>
         </div>
       </div>
     </div>
