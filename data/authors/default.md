@@ -12,4 +12,4 @@ cv: /cv_nayeong_kim.pdf
 
 I am a Ph.D student in computer science and engineering department at [POSTECH](http://www.postech.ac.kr/eng/), advised by [Suha Kwak](https://suhakwak.github.io/).
 My research intersets is developing algorithms which mitigate spurious correlations in real-world datasets.
-I am a member of [Computer Vision Lab](http://cvlab.postech.ac.kr) at POSTECH. Previously, I received a BA in computer science and engineering department from POSTECH in 2017.
+I am a member of [Computer Vision Lab](http://cvlab.postech.ac.kr) at POSTECH. Previously, I received a B.S. in computer science and engineering department from POSTECH in 2017.
