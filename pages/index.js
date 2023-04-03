@@ -13,11 +13,19 @@ export async function getStaticProps() {
   const publications = await getAllFilesFrontMatter('publication')
   const authorDetails = await getFileBySlug('authors', ['default'])
   const serviceDetails = await getFileBySlug('authors', ['service'])
+  const awardDetails = await getFileBySlug('authors', ['award'])
+  const talksDetails = await getFileBySlug('authors', ['talks'])
 
-  return { props: { publications, authorDetails, serviceDetails } }
+  return { props: { publications, authorDetails, serviceDetails, awardDetails, talksDetails } }
 }
 
-export default function Home({ publications, authorDetails, serviceDetails }) {
+export default function Home({
+  publications,
+  authorDetails,
+  serviceDetails,
+  awardDetails,
+  talksDetails,
+}) {
   const { mdxSource, frontMatter } = authorDetails
   return (
     <>
@@ -126,6 +134,28 @@ export default function Home({ publications, authorDetails, serviceDetails }) {
           </Link>
         </div>
       )}
+      <div className="divide-y divide-black dark:divide-gray-700">
+        <div className="divide-y divide-black pt-6">
+          <h2 className="text-2xl font-extrabold leading-9 tracking-tight text-gray-900 dark:text-gray-100 sm:leading-10 md:leading-14">
+            Awards
+          </h2>
+        </div>
+        <MDXLayoutRenderer
+          layout={awardDetails.frontMatter.layout}
+          mdxSource={awardDetails.mdxSource}
+        />
+      </div>
+      <div className="divide-y divide-black dark:divide-gray-700">
+        <div className="divide-y divide-black pt-6">
+          <h2 className="text-2xl font-extrabold leading-9 tracking-tight text-gray-900 dark:text-gray-100 sm:leading-10 md:leading-14">
+            Talks
+          </h2>
+        </div>
+        <MDXLayoutRenderer
+          layout={talksDetails.frontMatter.layout}
+          mdxSource={talksDetails.mdxSource}
+        />
+      </div>
       <div className="divide-y divide-black dark:divide-gray-700">
         <div className="divide-y divide-black pt-6">
           <h2 className="text-2xl font-extrabold leading-9 tracking-tight text-gray-900 dark:text-gray-100 sm:leading-10 md:leading-14">
