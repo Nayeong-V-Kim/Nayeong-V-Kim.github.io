@@ -2,7 +2,7 @@
 title: Learning Debiased Classifier with Biased Committee
 authors: ['Nayeong Kim', 'Sehyun Hwang', 'Sungsoo Ahn', 'Jaesik Park', 'Suha Kwak']
 date: '2022'
-tags: ['Conference on Neural Information PRocessing Systems (NeurIPS)', '2022']
+tags: ['Conference on Neural Information Processing Systems (NeurIPS)', '2022']
 draft: false
 comment: ICML Workshop on Spurious Correlations, Invariance and Stability (SCIS) 2022
 # comment: ICML Workshop on Spurious Correlations, Invariance and Stability (SCIS) 2022
