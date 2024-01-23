@@ -10,6 +10,6 @@ cv: /cv_nayeong_kim.pdf
 # I've received M.S. at POSTECH during which I conducted researches on the image matching and point cloud registration.
 ---
 
-I am a Ph.D student in computer science and engineering department at [POSTECH](http://www.postech.ac.kr/eng/), advised by [Suha Kwak](https://suhakwak.github.io/).
+I am a Ph.D candidate in computer science and engineering department at [POSTECH](http://www.postech.ac.kr/eng/), advised by [Suha Kwak](https://suhakwak.github.io/).
 My long-term research goal is to work 'Toward ensuring the trustworthiness of AI models.' During my pursuit of a Ph.D., I aim to address the pressing issue of combating spurious correlations that undermine the integrity of AI models in real-world applications.
 I am a member of [Computer Vision Lab](http://cvlab.postech.ac.kr) at POSTECH. Previously, I received a B.S. in computer science and engineering department from POSTECH in 2017.
