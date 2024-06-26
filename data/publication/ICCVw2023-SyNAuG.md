@@ -5,7 +5,7 @@ authors:
 date: '2023.10'
 tags: [] #['International Conference Machine Learning (ICML) workshop', '2023']
 draft: false
-comment: 'ICML Workshop on MMFM: What is Next in Multimodal Foundation Models? (MMFM) 2023'
+comment: 'ICML 2023 - Workshop on MMFM: What is Next in Multimodal Foundation Models? (MMFM)'
 # comment: ICML Workshop on Spurious Correlations, Invariance and Stability (SCIS) 2022
 links:
   - paper@https://arxiv.org/abs/2308.00994
