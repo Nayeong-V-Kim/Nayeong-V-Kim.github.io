@@ -6,7 +6,7 @@ import { MDXLayoutRenderer } from '@/components/MDXComponents'
 import siteMetadata from '@/data/siteMetadata'
 import { getAllFilesFrontMatter, getFileBySlug } from '@/lib/mdx'
 
-const MAX_DISPLAY = 5
+const MAX_DISPLAY = 10
 const DEFAULT_LAYOUT = 'AuthorLayout'
 
 export async function getStaticProps() {
