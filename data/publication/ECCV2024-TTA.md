@@ -4,7 +4,7 @@ authors: ['Juwon Kang', 'Nayeong Kim', 'Jungseul Ok', 'Suha Kwak']
 date: '2024.10'
 tags: [] #['International Conference Machine Learning (ICML)', '2024']
 draft: false
-comment: ICML, 2024
+comment: ECCV, 2024
 links:
   - paper@
   # - openacess@https://openaccess.thecvf.com/content/ICCV2021/papers/Lee_Deep_Hough_Voting_for_Robust_Global_Registration_ICCV_2021_paper.pdf
