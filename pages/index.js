@@ -15,8 +15,18 @@ export async function getStaticProps() {
   const serviceDetails = await getFileBySlug('authors', ['service'])
   const awardDetails = await getFileBySlug('authors', ['award'])
   const talksDetails = await getFileBySlug('authors', ['talks'])
+  const experienceDetails = await getFileBySlug('authors', ['experience'])
 
-  return { props: { publications, authorDetails, serviceDetails, awardDetails, talksDetails } }
+  return {
+    props: {
+      publications,
+      authorDetails,
+      serviceDetails,
+      awardDetails,
+      talksDetails,
+      experienceDetails,
+    },
+  }
 }
 
 export default function Home({
@@ -25,6 +35,7 @@ export default function Home({
   serviceDetails,
   awardDetails,
   talksDetails,
+  experienceDetails,
 }) {
   const { mdxSource, frontMatter } = authorDetails
   return (
@@ -35,6 +46,18 @@ export default function Home({
         mdxSource={mdxSource}
         frontMatter={frontMatter}
       />
+
+      <div className="divide-y divide-black dark:divide-gray-700">
+        <div className="divide-y divide-black pt-6">
+          <h2 className="text-2xl font-extrabold leading-9 tracking-tight text-gray-900 dark:text-gray-100 sm:leading-10 md:leading-14">
+            Experience
+          </h2>
+        </div>
+        <MDXLayoutRenderer
+          layout={experienceDetails.frontMatter.layout}
+          mdxSource={experienceDetails.mdxSource}
+        />
+      </div>
       <div className="divide-y divide-black dark:divide-gray-700">
         <div className="pt-6 space-y-2 md:space-y-5">
           <h2 className="text-2xl font-extrabold leading-9 tracking-tight text-gray-900 dark:text-gray-100 sm:leading-10 md:leading-14">
