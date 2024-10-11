@@ -1,11 +1,11 @@
 ---
-title: 'Exploiting Synthetic Data for Data Imbalance Problems: Baselines from a Data Perspective'
+title: 'SYNAuG: Exploiting Synthetic Data for Data Imbalance Problems'
 authors:
   ['Moon Ye-Bin*', 'Nam Hyeon-Woo*', 'Wonseok Choi', 'Nayeong Kim', 'Suha Kwak', 'Tae-Hyun Oh']
 date: '2023.10'
 tags: [] #['International Conference Machine Learning (ICML) workshop', '2023']
 draft: false
-comment: 'ICML 2023 - Workshop on MMFM: What is Next in Multimodal Foundation Models? (MMFM)'
+comment: 'ICCV 2023 - Workshop on MMFM: What is Next in Multimodal Foundation Models? (MMFM)'
 # comment: ICML Workshop on Spurious Correlations, Invariance and Stability (SCIS) 2022
 links:
   - paper@https://arxiv.org/abs/2308.00994
