@@ -8,6 +8,7 @@ cv: /cv_nayeong_kim.pdf
 # My research interests lie in the intersection of 3D computer vision and deep learning.
 # I've worked on the correspondence estimation for images and point clouds, efficient 3D perception network architectures, neural rendering and implicit representation.
 # I've received M.S. at POSTECH during which I conducted researches on the image matching and point cloud registration.
+# dummy
 ---
 
 I will join Huawei Singapore Research Center as an AI Researcher. I received my Ph.D degree in computer science and engineering department at [POSTECH](http://www.postech.ac.kr/eng/), advised by [Suha Kwak](https://suhakwak.github.io/).
