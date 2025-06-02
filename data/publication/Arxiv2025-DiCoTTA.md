@@ -1,5 +1,5 @@
 ---
-title: DiCoTTA: Domain-invariant Learning for Continual Test-time Adaptation
+title: 'DiCoTTA: Domain-invariant Learning for Continual Test-time Adaptation'
 authors: ['Sohyun Lee', 'Nayeong Kim', 'Jowon Kang', 'Suha Kwak']
 date: '2025'
 tags: [] 
