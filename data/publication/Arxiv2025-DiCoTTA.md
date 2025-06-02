@@ -1,6 +1,6 @@
 ---
 title: 'DiCoTTA: Domain-invariant Learning for Continual Test-time Adaptation'
-authors: ['Sohyun Lee', 'Nayeong Kim', 'Jowon Kang', 'Suha Kwak']
+authors: ['Sohyun Lee', 'Nayeong Kim', 'Juwon Kang', 'Seong Joon Oh', 'Suha Kwak']
 date: '2025'
 tags: [] 
 draft: false
