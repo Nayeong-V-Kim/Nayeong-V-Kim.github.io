@@ -10,6 +10,6 @@ cv: /cv_nayeong_kim.pdf
 # I've received M.S. at POSTECH during which I conducted researches on the image matching and point cloud registration.
 ---
 
-I am an AI Algorithm Engineer at Huawei Singapore Research Center. I received my Ph.D degree in computer science and engineering department at [POSTECH](http://www.postech.ac.kr/eng/), advised by [Suha Kwak](https://suhakwak.github.io/).
+I am an AI Algorithm Engineer at Huawei Singapore Research Center, working with [Prof. Hanwang Zhang](https://personal.ntu.edu.sg/hanwangzhang/). I received my Ph.D degree in computer science and engineering department at [POSTECH](http://www.postech.ac.kr/eng/), advised by [Prof. Suha Kwak](https://suhakwak.github.io/).
 My long-term research goal is to work 'Toward ensuring the trustworthiness of AI models.' During my pursuit of a Ph.D., I aim to address the pressing issue of combating spurious correlations that undermine the integrity of AI models in real-world applications.
 Previously, I received a B.S. in computer science and engineering department from POSTECH in 2017.
