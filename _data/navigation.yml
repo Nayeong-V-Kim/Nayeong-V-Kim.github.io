@@ -1,0 +1,6 @@
+# The following is the order of the links in the header of the website.
+#
+# Everything (bio, publications, talks, CV) lives on the single home page,
+# so the header menu is intentionally left empty.
+
+main:
