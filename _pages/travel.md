@@ -13,6 +13,7 @@ window.addEventListener("load", function () {
     { name: "Fukuoka, Japan", lat: 33.5904, lng: 130.4017 },
     { name: "Osaka, Japan", lat: 34.6937, lng: 135.5023 },
     { name: "Sapporo, Japan", lat: 43.0618, lng: 141.3545 },
+    { name: "Okinawa, Japan", lat: 26.2124, lng: 127.6809 },
 
     { name: "Suzhou, China", lat: 31.2989, lng: 120.5853 },
     { name: "Hong Kong", lat: 22.3193, lng: 114.1694 },
@@ -20,6 +21,8 @@ window.addEventListener("load", function () {
     { name: "Singapore", lat: 1.3521, lng: 103.8198 },
     { name: "Johor Bahru, Malaysia", lat: 1.4927, lng: 103.7414 },
     { name: "Kota Kinabalu, Malaysia", lat: 5.9804, lng: 116.0735 },
+
+    { name: "Da Nang, Vietnam", lat: 16.0544, lng: 108.2022 },
 
     { name: "Barcelona, Spain", lat: 41.3851, lng: 2.1734 },
     { name: "Frankfurt, Germany", lat: 50.1109, lng: 8.6821 },
@@ -106,6 +109,7 @@ window.addEventListener("load", function () {
 * Fukuoka
 * Osaka
 * Sapporo
+* Okinawa
 
 ### China
 * Suzhou
@@ -115,3 +119,6 @@ window.addEventListener("load", function () {
 * Singapore
 * Johor Bahru, Malaysia
 * Kota Kinabalu, Malaysia
+
+### Vietnam
+* Da Nang
